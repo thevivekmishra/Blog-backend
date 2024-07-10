@@ -1,4 +1,4 @@
-import User from "../models/User.js";
+import User from "../models/User-modal.js";
 import bcrypt from "bcryptjs"
 
 export const signup = async (req, res, next) => {

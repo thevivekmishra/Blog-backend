@@ -1,4 +1,4 @@
-import User from "../models/User.js";
+import User from "../models/User-modal.js";
 
 export const getAllUser = async (req, res, next) => {
     let users

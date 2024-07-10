@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import Blog from "../models/Blog.js";
-import User from "../models/User.js";
+import User from "../models/User-modal.js";
 
 export const addBlogs = async (req, res, next) => {
     const { title, description, image, user } = req.body;

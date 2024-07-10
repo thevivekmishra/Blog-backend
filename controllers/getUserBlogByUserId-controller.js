@@ -1,4 +1,4 @@
-import User from "../models/User.js";
+import User from "../models/User-modal.js";
 
 export const getByUserId = async (req, res, next) => {
     const userId = req.params.id;

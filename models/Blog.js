@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import user from "./user.js";
+import user from "./User-modal.js";
 
 const Schema = mongoose.Schema;
 
